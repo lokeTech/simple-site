@@ -1,0 +1,25 @@
+/* src/components/Home.css */
+
+.home-container {
+    text-align: center; /* Center-align text */
+    padding: 50px 20px; /* Add space around the content */
+    background-color: #f4f4f4; /* Light background color */
+    min-height: 100vh; /* Ensure full height of viewport */
+  }
+  
+  .welcome-text {
+    font-size: 48px; /* Large welcome text */
+    font-weight: bold; /* Bold font */
+    color: #333; /* Darker text color */
+  }
+  
+  .home-summary {
+    font-size: 20px; /* Summary font size */
+    margin-top: 20px; /* Space between welcome text and summary */
+    color: #555; /* Lighter text color */
+    max-width: 800px; /* Limit width of text */
+    margin-left: auto;
+    margin-right: auto; /* Center summary */
+    line-height: 1.6; /* Line height for readability */
+  }
+  

@@ -1,0 +1,46 @@
+/* src/components/About.css */
+
+.about-container {
+    padding: 20px;
+    text-align: center; /* Center align text */
+  }
+  
+  .about-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .about-container h2 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .about-container p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  .social-media p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .social-media a {
+    margin-right: 15px;
+    text-decoration: none;
+  }
+  
+  .social-media img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-media img:hover {
+    transform: scale(1.1);
+  }
+  
