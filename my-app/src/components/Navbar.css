@@ -1,0 +1,48 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between brand and links */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Padding for the navbar */
+    background-color: black; /* Navbar background color */
+    color: white; /* Text color */
+  }
+  
+  .navbar-brand {
+    font-size: 24px; /* Brand name size */
+  }
+  
+  .navbar-links {
+    display: flex; /* Display links in a row */
+  }
+  
+  .navbar-links a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin-left: 20px; /* Space between links */
+    font-size: 18px; /* Link size */
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column; /* Stack items on smaller screens */
+      align-items: flex-start; /* Align items to the left */
+    }
+  
+    .navbar-links {
+      flex-direction: column; /* Stack links vertically */
+      margin-top: 10px; /* Space between brand and links */
+    }
+  
+    .navbar-links a {
+      margin-left: 0; /* Reset margin for stacked links */
+      margin-bottom: 10px; /* Space between links */
+    }
+  }
+  

@@ -1,0 +1,36 @@
+/* Ensures that the app takes the full viewport height */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* Main content should take up remaining space and allow scrolling */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto; /* Scrollable content */
+  background-color: #f4f4f4; /* Light background color */
+}
+
+/* Footer should stick to the bottom if the content is short */
+footer {
+  background-color: black; /* Footer background color */
+  color: white; /* Footer text color */
+  text-align: center;
+  padding: 10px 0; /* Padding for the footer */
+  position: relative; /* Not fixed, but relative to content */
+}
+
+/* Additional content styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* For general page responsiveness */
+@media (max-width: 768px) {
+  .navbar-links {
+    flex-direction: column;
+  }
+}
